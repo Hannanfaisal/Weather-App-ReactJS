@@ -1,0 +1,19 @@
+.navbar .navbar-nav .nav-item a, .navbar-brand{
+    color: white;
+}
+
+.heading{
+    animation: resize 1s ease-in;
+}
+
+
+@keyframes resize {
+    from {
+      transform: scale(0.5)
+    }
+    to {
+      transform: scale(1);
+    }
+}
+
+
