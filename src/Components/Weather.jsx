@@ -32,7 +32,7 @@ export default class Weather extends Component{
         this.setState({
             lat,lon
         }, ()=>{
-            axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.lon}&appid=900964858f96fb3a6e6d1fd33ead3867`).
+            axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.lon}&appid={your key}`).
                     then(
                         (response) => {
                             this.setState({
